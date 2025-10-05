@@ -28,7 +28,7 @@ This is just some Go code to upload directories and files you put in a list to a
 
 ## Configuration
 
-`~/.config/csa/archive.yml` - determines what directories/files are archived during a sync, along with any other relevant metadata. This repo also contains an example `archive.yml` if you're curious about the format.
+`~/.config/csa/archive.yml` - determines what directories/files are archived during a sync, along with any other relevant metadata. This repo also contains an [`example.archive.yml`](example.archive.yml) if you're curious about the format.
 
 ## Contributing
 
