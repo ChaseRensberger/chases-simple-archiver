@@ -24,8 +24,6 @@ This is just some Go code to upload directories and files you put in a list to a
 
 `csa remote s3:<bucket>` - Initialize/configure S3 remote.
 
-`csa config` - Prints current configuration (explained in next section).
-
 ## Configuration
 
 `~/.config/csa/archive.yml` - determines what directories/files are archived during a sync, along with any other relevant metadata. This repo also contains an [`example.archive.yml`](example.archive.yml) if you're curious about the format.
@@ -39,3 +37,4 @@ I don't expect anyone to use this other than me but if for some reason you do an
 - Symlink support (currently just skips them)
 - Automatic sync
 - Non s3 remotes
+- Customizable config location
