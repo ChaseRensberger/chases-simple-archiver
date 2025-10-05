@@ -1,0 +1,14 @@
+targets:
+  - path: /home/user/.config/
+  - path: /home/user/Documents/
+  - path: /home/user/Pictures/
+  - path: /home/user/Projects/
+    exclude:
+      - "**/node_modules"
+
+remotes:
+  - type: s3
+    location: my-archive-bucket 
+    credentialsFile: /home/user/.aws/credentials
+    numArchives: 5
+
